@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Gumoumou.github.io</id>
     <title>Gridea</title>
-    <updated>2020-10-10T05:48:14.454Z</updated>
+    <updated>2020-10-10T05:52:07.956Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Gumoumou.github.io"/>
     <link rel="self" href="https://Gumoumou.github.io/atom.xml"/>
@@ -188,8 +188,7 @@
             }
 </code></pre>
 <p><img src="https://Gumoumou.github.io/post-images/1602308353691.jpg" alt="" loading="lazy"><br>
-<img src="file://C:/Users/12034/Documents/Gridea/post-images/1602308353691.jpg" alt="img" style="zoom:67%;" /><br>
-<img src="file://C:/Users/12034/Documents/Gridea/post-images/1602308440222.jpg" alt="img" style="zoom:67%;" /></p>
+<img src="https://Gumoumou.github.io/post-images/1602308440222.jpg" alt="" loading="lazy"></p>
 <p>进一步控制权重</p>
 <pre><code class="language-c">            Properties {
             	.....
@@ -215,8 +214,8 @@
                 return tricol;
             }
 </code></pre>
-<img src="file://C:/Users/12034/Documents/Gridea/post-images/1602308467022.jpg" alt="img" style="zoom:67%;" />
-<img src="file://C:/Users/12034/Documents/Gridea/post-images/1602308470267.jpg" alt="img" style="zoom:67%;" />
+<p><img src="https://Gumoumou.github.io/post-images/1602308467022.jpg" alt="" loading="lazy"><br>
+<img src="https://Gumoumou.github.io/post-images/1602308470267.jpg" alt="" loading="lazy"></p>
 <p>接下来我们可以试试映射多张贴图，我们y轴用_TopTex草地贴图，x和z轴用 _MainTex石头贴图。</p>
 <pre><code>            Properties {
             	.....
@@ -231,7 +230,7 @@
                 fixed4 colz = tex2D(_MainTex,i.worldpos.xy);
              }
 </code></pre>
-<img src="file://C:/Users/12034/Documents/Gridea/post-images/1602308490570.jpg" alt="img" style="zoom:67%;" />
+<figure data-type="image" tabindex="4"><img src="https://Gumoumou.github.io/post-images/1602308490570.jpg" alt="" loading="lazy"></figure>
 <p>最后我们再实现一下纹理的缩放和位移</p>
 <pre><code>float4 _MainTex_ST,_SideTex_ST;
 .....
@@ -244,7 +243,7 @@ fixed4 frag (v2f i) : SV_Target
 }
 </code></pre>
 <p>把缩放设置为5看一下效果</p>
-<img src="file://C:/Users/12034/Documents/Gridea/post-images/1602308514087.jpg" alt="img" style="zoom:67%;" />
+<figure data-type="image" tabindex="5"><img src="https://Gumoumou.github.io/post-images/1602308514087.jpg" alt="" loading="lazy"></figure>
 <h1 id="完">完</h1>
 ]]></content>
     </entry>
