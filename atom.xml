@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Gumoumou.github.io</id>
     <title>Gridea</title>
-    <updated>2020-10-10T06:02:20.513Z</updated>
+    <updated>2020-10-10T06:04:15.103Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Gumoumou.github.io"/>
     <link rel="self" href="https://Gumoumou.github.io/atom.xml"/>
@@ -16,8 +16,7 @@
         <link href="https://Gumoumou.github.io/post/triplanar-jiao-cheng-bi-ji/">
         </link>
         <updated>2020-10-10T05:35:07.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="triplanar笔记">Triplanar笔记</h1>
-<p>这个笔记主要记录自<a href="https://catlikecoding.com/unity/tutorials/advanced-rendering/triplanar-mapping/">CatlikeCoding-Triplanar</a><br>
+        <content type="html"><![CDATA[<p>这个笔记主要记录自<a href="https://catlikecoding.com/unity/tutorials/advanced-rendering/triplanar-mapping/">CatlikeCoding-Triplanar</a><br>
 上面的文章很长而且有很多跟Triplanar无关的内容，其实triplanar和核心内容就是很简单的几行代码，所以看我这个笔记就可以了。</p>
 <h2 id="什么是triplanar为什么要用triplanar">什么是Triplanar?为什么要用Triplanar?</h2>
 <p>一般来说我们想要映射纹理到我们的模型上，可以用根据每个顶点的uv坐标来映射纹理。但这不是唯一的方法，而triplanar就是另一种映射贴图的方式。有时候，uv坐标映射的方式可能无法达到我们想要的效果（比如造成贴图拉伸）甚至根本没有uv坐标，这些情况大多在用代码生成模型时，动态改变模型时发生。Triplanar的原理就是用顶点位置作为uv坐标，用法线作为权重，来实现贴图的映射，因为映射已xyz三个平面分别映射，所以叫做tri-planar。</p>
