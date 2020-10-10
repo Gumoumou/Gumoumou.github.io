@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Gumoumou.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-10-10T06:04:15.103Z</updated>
+    <title>GumouNotes</title>
+    <updated>2020-10-10T06:09:53.053Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Gumoumou.github.io"/>
     <link rel="self" href="https://Gumoumou.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://Gumoumou.github.io/images/avatar.png</logo>
     <icon>https://Gumoumou.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, GumouNotes</rights>
     <entry>
         <title type="html"><![CDATA[Triplanar教程笔记]]></title>
         <id>https://Gumoumou.github.io/post/triplanar-jiao-cheng-bi-ji/</id>
